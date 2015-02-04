@@ -16,4 +16,11 @@ namespace sentencias
             Console.WriteLine( "La bandera es falsa." );
         }
     }
+
+    public void ejemploFOR(){
+        for ( int i = 1; i <= 5; i++ )
+        {
+            Console.WriteLine( "El número actual es " + i );
+        }
+    }
 }
